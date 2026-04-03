@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-03T12:31:37+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CaroFiore’s Blog</title><subtitle></subtitle><entry><title type="html">Entry3-BlogStruggle</title><link href="http://localhost:4000/2026/04/02/Entry3-BlogStruggle.html" rel="alternate" type="text/html" title="Entry3-BlogStruggle" /><published>2026-04-02T00:00:00+02:00</published><updated>2026-04-02T00:00:00+02:00</updated><id>http://localhost:4000/2026/04/02/Entry3-BlogStruggle</id><content type="html" xml:base="http://localhost:4000/2026/04/02/Entry3-BlogStruggle.html"><![CDATA[<h1 id="dear-diary">Dear Diary..</h1>
+<p>If you are reading this, then CaroFiore (bless his soul) has managed to set up the blog.
+Now, going from the previous entry to this is quite a jump, so let me update on what happened.</p>
+
+<h3 id="the-bus-stopped">The Bus Stop(ped)</h3>
+<p>Yesterday, fittingly on April 1st, I was giga-pranked by the local bus company running our “OV”.
+Now, it doubled my traveling time to and from my education-location, and I spent a <strong>lot</strong> of that time figuring out the blogging stuff.</p>
+
+<p>For the first time in a long time, I came home and could not stop working on it. I’m not used to this level of motivation, but it was pleasant :]</p>
+
+<p>What was not pleasant however, was the <strong>gods be damned bleeding mess that was jekyll and github pages.</strong></p>
+
+<p><img src="https://imgs.xkcd.com/comics/average_familiarity.png" alt="relevant" /></p>
+
+<blockquote>
+  <p>This xkcd resonates with me to no end. I’ve been turned off and away from IT and coding a ton due to what I consider to be the horrible way information is documented and communicated.</p>
+
+  <p>Attempting to work with jekyll and github pages has reinvigorated my blazing hatred for any resource that lacks beginner-friendly options. Thanks xkcd for providing us with such a beautiful piece of art.</p>
+</blockquote>
+
+<h3 id="the-couch">The Couch</h3>
+<p>At home, having eaten dinner and continuing my work on the blog, I started looking for accessible tutorials for GitHub Pages.
+My first serious attempt started with <a href="https://github.com/sfarrens/jekyll_tutorial">this tutorial by sfarrens</a>.</p>
+
+<p>The result of following this tutorial was a mess of failed repo’s and general confusion as to what in the world I was actually doing. 
+I don’t actually fault sfarrens for this, but I may or may not have had to mercilessly purge several repo’s into the graveyard.</p>
+
+<p>I suppose it did not help that this resource was from 6 years ago, which may explain the fuckton of deprecation errors I got trying to build the site. <em>Hmmm..</em></p>
+
+<p><strong>An utter failure, if I may say so myself.</strong></p>
+
+<p>Deep breaths. Let’s learn from our previous mistakes. Time to consult <strong>the oficial documentation for GitHub Pages.</strong>
+As was with jekyll, now hopefully is with GitHub.</p>
+
+<p><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll">yeah.. no</a></p>
+
+<p>GitHub’s documentation did two things:</p>
+<ol>
+  <li>Not explain their step-by-step process and</li>
+  <li>Make way too many steps</li>
+</ol>
+
+<p>So that was a bust. (I did attempt it, I swear. I just got majorly stuck when it came to having multiple repo’s besides just the github.io repo! I’m still not sure what the idea was, I must have misunderstood one of the steps..)</p>
+
+<blockquote>
+  <p>My second quoteblock I will devote to my complaint regarding step-by-step tutorials. Listen well:</p>
+
+  <p><strong>IF YOUR STEP BY STEP TUTORIAL NEEDS MORE THAN 10 STEPS TO COMPLETE, YOU NEED TO RETHINK WHETHER A STEP TUTORIAL WAS THE RIGHT CHOICE.</strong></p>
+
+  <p>Disagree if you wish, but just like Minecraft Redstone, if your tutorial requires more than 10 steps, perhaps it’s time to actually explain what you are doing. If a user messes up one of the steps, then the more steps you have, the harder it is to debug where it came from..</p>
+
+  <p>Subdivision into sections with validation whether you did it right is huge!</p>
+</blockquote>
+
+<h3 id="the-following-day">The Following Day</h3>
+<p>The clock didn’t just strike, but utterly hammered 10 o’clock. It was time to relax.
+I told myself that I failed today, but of course, failure is part of the process.
+The day after, I was going to do it right.</p>
+
+<p>And I did (I think?). I learned from my mistake and instead devoted my attention to a Youtube tutorial.
+I made sure the date on it was recent, which paid off. <a href="https://www.youtube.com/watch?v=m1RYsmOMPLs">Ahmed Tremo, if you are ever reading this, cheers dude.</a></p>
+
+<p><strong>The blog was working</strong>, my site showed up on my github.io page, and all was well in the world. I celebrated with a peanut butter sandwich.</p>
+
+<h3 id="but-its-not-over">But It’s Not Over</h3>
+<p>Now, I used Chirp as my template for the jekyll site, which is great. 
+It works just fine, but I got stubborn, and decided to mess around with files myself.</p>
+
+<p>Since I am now working with WSL, my assumption was that I would not be able to access any Linux files on my system in my windows file explorer. After all, <strong>I had devoted myself to living inside the command line</strong>.</p>
+
+<p>I am still <em>sort of</em> committed to using command line as much as possible, but it kind of broke my workflow realizing I had no bloody way to open, edit and move .png files. 
+That’s when I found out I <strong>CAN</strong> actually access all my stuff in my linux directories via explorer. Neat!</p>
+
+<p>I spent about half an hour trying to replace the favicon on the site. Tediously I manually resized my profile picture multiple times to match the favicons that were provided by the Chirp template.</p>
+
+<p>My mistake? My failure? Editing all that in the fucking _site directory. All my carefully handcrafted images were obliterated in the blink of an eye when I called the site to rebuild.
+<strong>Turns out that’s not how you do it, you baboon.</strong></p>
+
+<blockquote>
+  <p>Working with Linux and command line related stuff has made me quite alert with the state of my files. It’s common knowledge that there is no way back once you call rm -r, 
+but I must say it’s almost quite fascinating how little guardrail there is in place sometimes.</p>
+
+  <p>Just now I put my files in the wrong spot and saw them deleted in an instant, no way back. I obviously did it right the second time, and learned from my mistakes, but what if I had put the wrong files in there?
+<strong>Yay to backups!!</strong></p>
+</blockquote>
+
+<h3 id="now-we-rest">Now We Rest</h3>
+<p>I managed to use <a href="https://realfavicongenerator.net/your-favicon-is-ready">favicon generator</a> to create my icons, and that was that. The next step will likely be to actually customize things a bit further, but <strong>the only .css file I’ve found so far is literally 1 line. <em>ONE LINE. WITH LIKE A GAJILLION CHARACTERS. WHY?</em></strong></p>
+
+<p>This was pretty fun. See you in the next entry.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Dear Diary.. If you are reading this, then CaroFiore (bless his soul) has managed to set up the blog. Now, going from the previous entry to this is quite a jump, so let me update on what happened.]]></summary></entry><entry><title type="html">Entry0-Init</title><link href="http://localhost:4000/2026/04/01/Entry0-Init.html" rel="alternate" type="text/html" title="Entry0-Init" /><published>2026-04-01T00:00:00+02:00</published><updated>2026-04-01T00:00:00+02:00</updated><id>http://localhost:4000/2026/04/01/Entry0-Init</id><content type="html" xml:base="http://localhost:4000/2026/04/01/Entry0-Init.html"><![CDATA[<p>Hi, this is a sort-of-first entry of my journey-ish-thing.</p>
+
+<p>As a first step, I set up my laptop with an SSH key pairing.
+I’m not really sure how it works, but with a little bit of playing around and looking up how to set it up I’ve managed to create an ssh key pairing and my personal lenovo laptop is now fully authenticated and linked!</p>
+
+<p>I created a repo with git in WSL via powershell, and added the standard hello world txt. Next step was to create a github repo with commands like gh repo create. The biggest surprise was how easy and comprehensible the steps were that github built into the command!</p>
+
+<p>The only thing that confused me was its request to create a remote. I had really no clue what that meant, but with some searching I assume it means that creating a remote means theres now a link between my local repo and the repo on github. If I hadn’t done this, the repos would be fully seperate from eachother (?). Also didn’t help there was no default value for yes or no, but alas, we input Y.</p>
+
+<p>Now there should be a private repo online in which I’m going to build the blog as described in “Niels’ bonustraject”.</p>
+
+<p>Also, this was written in vim, hi! (Is there a way to change the escape keybind? Who thought it was a good idea to put it on fucking escape?)</p>
+
+<p>Message to me in the past: don’t put a complicated password as your ssh pass. You’ll have to type it often (often) (for real, often)</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Hi, this is a sort-of-first entry of my journey-ish-thing.]]></summary></entry><entry><title type="html">Entry1-BlogStart</title><link href="http://localhost:4000/2026/04/01/Entry1-BlogStart.html" rel="alternate" type="text/html" title="Entry1-BlogStart" /><published>2026-04-01T00:00:00+02:00</published><updated>2026-04-01T00:00:00+02:00</updated><id>http://localhost:4000/2026/04/01/Entry1-BlogStart</id><content type="html" xml:base="http://localhost:4000/2026/04/01/Entry1-BlogStart.html"><![CDATA[<h3 id="entry-1">Entry 1</h3>
+
+<p>This entry will be all about setting up the blog. Technically there <em>was</em> another entry regarding the github installation, but ill have to figure out how to move that over here (I’ll probably call it entry 0, truly meta).</p>
+
+<p>Something I’ve noted is my overcomplication in installing jekyll, the package that this blog runs with. I’ve looked at multiple sources, from users retelling their installations to tutorials written during the time I was grinding coins in Minecraft.</p>
+
+<p>Most of it just seemed outdated. There was no way that this crap is so weirdly complex to install with twenty different methods to do it. I thought I’d get lost on this, until I found an incredible resource: Jekyllrb.com. Yeah, the <em>official</em> documentation. Fucking duh.</p>
+
+<p>So yeah, the installation was only a couple commands away. Problem is, and I’m writing this as a note to myself, that the guide advises:</p>
+
+<blockquote>
+  <p>Avoid installing RubyGems packages (called gems) as the root user. Instead, set up a gem installation directory for your user account. The following commands will add environment variables to your ~/.bashrc file to configure the gem installation path:<br />
+echo ‘# Install Ruby Gems to ~/gems’ » ~/.bashrc
+echo ‘export GEM_HOME=”$HOME/gems”’ » ~/.bashrc
+echo ‘export PATH=”$HOME/gems/bin:$PATH”’ » ~/.bashrc
+source ~/.bashrc</p>
+</blockquote>
+
+<p>I’ll be honest, this part scares me a little bit because I do <em>not</em> know what it does. At least if it ever breaks, I will know to look back here.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Entry 1]]></summary></entry><entry><title type="html">Entry2-JeKyllMe</title><link href="http://localhost:4000/2026/04/01/Entry2-JekyllMe.html" rel="alternate" type="text/html" title="Entry2-JeKyllMe" /><published>2026-04-01T00:00:00+02:00</published><updated>2026-04-01T00:00:00+02:00</updated><id>http://localhost:4000/2026/04/01/Entry2-JekyllMe</id><content type="html" xml:base="http://localhost:4000/2026/04/01/Entry2-JekyllMe.html"><![CDATA[<h1 id="installing-jekyllme">Installing Jekyll(Me)</h1>
+<p>Today I learned a lesson. A short one, but a good one. Let me take you through my process of installing jekyll.</p>
+
+<p>The first step was to look up how to install jekyll. Success, I found a hundred different tutorials, so there must be something in there for me!</p>
+
+<p>Turns out that something having a hundred different tutorials <strong>is not a good sign.</strong></p>
+
+<blockquote>
+  <p>Whenever there are a million ways to do something, I tend to get a little spooked.
+I like paying attention to the details and picking just the right resource for my use-case, but it’s
+often incredibly hard to find someone on the internet saying <em>“Hey it just so happens that I’m doing this thing you are also trying.”</em></p>
+
+  <p>Hardware and software is also often a questionmark. <em>Will this resource work on my lenovo laptop with windows 11 but using WSL but I don’t eat lasagna??</em></p>
+
+  <p>Tutorial makers have it difficult, trying to find a balance between simplicity and making sure anyone can use it, whatever their tools.
+I do believe that the world of IT has made it very hard for themselves.</p>
+
+  <p><strong>Too many different standards, versions, distributions and methods, and each and every set of them has their own errors and faults lurking..</strong> <em>oof..</em></p>
+</blockquote>
+
+<p>So, I started with some resources left and right. A good lesson to learn here is to not use old resources. Sort by modern resources, as they don’t use utterly outdated ui’s.</p>
+
+<p>But whats this? I can install jekyll via apt-get, but also via something called gem, which apparently uses this thing called ruby, but there’s also a devkit version and an installer, <em>“you just have to pick the one that you need”</em>?</p>
+
+<p>Screw you man! How the heck am I supposed to know which one I need?</p>
+
+<h2 id="my-first-lesson">My First Lesson</h2>
+
+<p>After installing jekyll with two different methods, both not resulting in the expected outcome (refer to the title of this entry), I stumbled upon the holy grail of resources:</p>
+
+<p><strong>OFFICIAL DOCUMENTATION.</strong></p>
+
+<p>This is technically a duplicate entry from Entry1, but I wanted to provide some extra first-hand experience.
+It turns out that Jekyll has an <a href="https://jekyllrb.com/docs/installation/ubuntu/">official installation guide</a>, which, and you wouldn’t believe it, literally only has like 3 steps! Amazing!</p>
+
+<p>And best of all, <strong>this worked</strong>. I went through slogs of tutorials that included 10+ step sequences on how to install jekyll, and all this time the source of the software had the right idea all along.</p>
+
+<p>So yeah, check official installation guides first <em>(as if that wasn’t obvious to begin with..)</em></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Installing Jekyll(Me) Today I learned a lesson. A short one, but a good one. Let me take you through my process of installing jekyll.]]></summary></entry></feed>
