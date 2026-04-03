@@ -21,7 +21,8 @@
 title: CaroFiore's Blog
 email: psclly@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-baseurl: "/carofiore.github.io" # the subpath of your site, e.g. /blog
+domain: cariofiore.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wwww.carofiore.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: carokannffxiv
 github_username:  carofiore
