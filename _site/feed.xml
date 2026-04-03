@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-03T12:55:09+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CaroFiore’s Blog</title><subtitle></subtitle><entry><title type="html">Entry3-BlogStruggle</title><link href="http://localhost:4000/2026/04/02/Entry3-BlogStruggle.html" rel="alternate" type="text/html" title="Entry3-BlogStruggle" /><published>2026-04-02T00:00:00+02:00</published><updated>2026-04-02T00:00:00+02:00</updated><id>http://localhost:4000/2026/04/02/Entry3-BlogStruggle</id><content type="html" xml:base="http://localhost:4000/2026/04/02/Entry3-BlogStruggle.html"><![CDATA[<h1 id="dear-diary">Dear Diary..</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-04-03T15:58:11+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">CaroFiore’s Blog</title><subtitle></subtitle><entry><title type="html">Entry4-Salvation</title><link href="http://localhost:4000/2026/04/03/Entry4-Salvation.html" rel="alternate" type="text/html" title="Entry4-Salvation" /><published>2026-04-03T00:00:00+02:00</published><updated>2026-04-03T00:00:00+02:00</updated><id>http://localhost:4000/2026/04/03/Entry4-Salvation</id><content type="html" xml:base="http://localhost:4000/2026/04/03/Entry4-Salvation.html"><![CDATA[<h1 id="dear-reader">Dear Reader,</h1>
+
+<p>I am sorry to inform you that Chirpy, the blogs old theme, is no more. I killed him. I don’t regret killing Chirpy. He was good, but insufficient for my cause.</p>
+
+<p>Please welcome minima! This is the default theme for a fresh jekyll installation. With a little bit of my own tweaking it’s now a barren wasteland full of white, but we’ll get there eventually.
+I’m sure by the time you read this I have picked my own personal (usually awful) color scheme.</p>
+
+<h3 id="understanding">Understanding</h3>
+
+<p>Today’s theme is truly “understanding”, not only did I figure out how to do a proper installation of jekyll, I also finally <em>get</em> how the file structure works.</p>
+
+<p>I used to constantly edit the “site” directory and seeing all my changes turn to null and void whenever I rebuilt the site. Now I understand that the site directory is where files are written to. But where are they written from?</p>
+
+<p>The “complicated” part was that the default themes are located in some far ass directory within the gems installation. The point is that you have to copy those default directories into your own repo. If those directories don’t exist within the repo, jekyll will just default to the default ones.</p>
+
+<p>This is a confusing process at first. I’ve never had to manually copy a directory into another directory to make changes like this. Why don’t you just put them in the directory in the first place..?</p>
+
+<blockquote>
+  <p>Fair point, me. Good job. Clarity to me is most important.
+The fact that these themes are completely uneditable and hard to find unless you know what you are looking for is a bit annoying to me.
+Unless it’s the inner workings of how the software works, customizable features should not be hiding in installation directories.</p>
+
+  <p>And to the creator of chirp, thanks a lot man, your theme is awesome (genuinely).
+I unfortunately did not end up using it because it was too complex to change things. Perhaps a simple config to change stuff would go a long way for people too lazy to learn css!</p>
+</blockquote>
+
+<h3 id="victory">Victory</h3>
+
+<p>To me this is victory. I understand now where my layouts are located and how to edit them. I even managed on my own to get this to work on my GitHub io. This is incredible to me because I feel like I <em>understand</em> what is happening. I no longer need a tutorial.</p>
+
+<p>Now that I understand where things are, I can also actually start using HTML and CSS. Until this point all I could do was aimlessly browse through files with overly complex CSS code. Now I can make it myself, and I know where to find it.</p>
+
+<p>I suppose the next step is to play around with HTML and CSS (Teach said I could take 1 extra day, which is great because I’m well into overtime right now).</p>
+
+<p>Cheers to everyone writing tutorials and documentations. I may be overly critical and cynical about them, but I always appreciate the effort :]</p>
+
+<p><img src="https://media.tenor.com/ndIn7o4DE5IAAAAM/cat-scratch.gif" alt="There should be a gif here, is the link broke? (Please notify CaroFiore)" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Dear Reader,]]></summary></entry><entry><title type="html">Entry3-BlogStruggle</title><link href="http://localhost:4000/2026/04/02/Entry3-BlogStruggle.html" rel="alternate" type="text/html" title="Entry3-BlogStruggle" /><published>2026-04-02T00:00:00+02:00</published><updated>2026-04-02T00:00:00+02:00</updated><id>http://localhost:4000/2026/04/02/Entry3-BlogStruggle</id><content type="html" xml:base="http://localhost:4000/2026/04/02/Entry3-BlogStruggle.html"><![CDATA[<h1 id="dear-diary">Dear Diary..</h1>
 <p>If you are reading this, then CaroFiore (bless his soul) has managed to set up the blog.
 Now, going from the previous entry to this is quite a jump, so let me update on what happened.</p>
 
