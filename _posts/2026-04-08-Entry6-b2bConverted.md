@@ -28,4 +28,4 @@ Just.. **READ THE INPUT BOX** when you press a button. It's that easy! Why do we
 
 Anyway. That worked. I now have a "le funny b2b converter".
 
-[Check out the converter repo here.]("https://github.com/CaroFiore/b2b-converter") Perhaps I should make this a link to the html and inmplement it into the blog? :)
+[Check out the converter repo here.](https://carofiore.github.io/b2b.html) Perhaps I should make this a link to the html and inmplement it into the blog? :)
