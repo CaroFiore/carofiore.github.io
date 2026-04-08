@@ -1,6 +1,6 @@
 # The bits and the bytes
 
-Today's assigmnet was a simple bits and bytes converter. The challenge was shoving it all into a single .html file.
+Today's assignment was a simple bits and bytes converter. The challenge was shoving it all into a single .html file.
 Well, that sounds like it should be simple, and while it sort of was, I did still meet some.. *self-induced obstacles* along the way.
 
 ### The conundrum of where to start
