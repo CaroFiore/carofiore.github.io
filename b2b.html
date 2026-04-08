@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>B2B Converter</title>
+
+    <style>
+        body {background-color: #98f885
+        }
+        p {margin:5px}
+    </style>
+</head>
+
+<body style="font-family:verdana,serif;">
+    <h1 >B2B Calculator</h1>
+    <p>Convert bits to bytes and bytes to bits!</p>
+    <hr>
+
+    <label for="input">Input: </label>
+    <input type="number" id="input" placeholder="0"> <br>
+
+    <p>Conversion type:</p>
+    <input type="radio" id="bits_to_bytes" name="conversion_type">
+    <label for="bits_to_bytes">Bits to Bytes</label> <br>
+    <input type="radio" id="bytes_to_bits" name="conversion_type">
+    <label for="bytes_to_bits">Bytes to Bits</label> <br>
+
+    <button onclick="convert()">Convert</button>
+
+    <hr>
+    <p id="output" style="font-size: larger; color:orangered; font-weight: bold">The output will show here!</p>
+
+    <img src="happycat.gif" alt="" width = "700" height = "100">
+
+    <script>
+        document.getElementById("bits_to_bytes").checked = true;
+
+        function convert() {
+            let input = document.getElementById("input");
+            let output = 0;
+            let converted_from_text = "";
+            let converted_to_text = "";
+
+            if (document.getElementById("bits_to_bytes").checked){
+                output = input.value / 8;
+                converted_from_text = " bits";
+                converted_to_text = " bytes";
+            } else if (document.getElementById("bytes_to_bits").checked){
+                output = input.value * 8;
+                converted_from_text = " bytes";
+                converted_to_text = " bits";
+            } else {
+                output = "Invalid input! Did you select a conversion type?"
+            }
+
+            output = input.value + converted_from_text + " converts to " + output.toString() + converted_to_text;
+
+            document.getElementById("output").innerHTML = output;
+        }
+    </script>
+
+</body>
+</html>
