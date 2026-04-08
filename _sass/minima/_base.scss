@@ -41,9 +41,6 @@ ul, ol, dl, figure,
   margin-bottom: $spacing-unit * 0.5;
 }
 
-pre,code{
-    background-color: $background-color;
-}
 
 /**
  * `main` element
@@ -155,7 +152,7 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $background-color;
 }
 
 code {
