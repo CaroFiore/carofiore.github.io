@@ -35,34 +35,35 @@ The pain doesn't really end there though, this was just a poke. The entire insta
 
 <details open>
 <summary> Open me! </summary>
-
-* x86\_64-compatible machine
-* netboot image
-* PGP signature (I now know what this is, but I wouldn't know how to work with it)
-* HTTP mirror
-* PXE
-* boot device > installation medium
-* mirror
-* virtual console
-* UEFI bitness / Bootmode
-* DHCP
-* block device
-* partitioning for boot devices?
-* stacked block devices (LVM, system encription, RAID)
-* EFI system partition
-* Swap space
-* Mount and Mount Points
-* FAT32 and others
-* Mirror servers
-* Reflector
-* CPU Microcode Updates
-* firmware
-* Linux Kernel (I mean, I sort of know what it is)
-* Fstab file
-* Persistent Block Device Naming
-* Chroot
-* > Creating a new initramfs is usually not required, because mkinitcpio was run on installation of the kernel package with pacstrap. 
-* Boot Loader
+<ul>
+<li> x86\_64-compatible machine </li>
+ <li>netboot image</li>
+ <li>PGP signature (I now know what this is, but I wouldn't know how to work with it)</li>
+ <li>HTTP mirror</li>
+ <li>PXE</li>
+ <li>boot device > installation medium</li>
+ <li>mirror</li>
+ <li>virtual console</li>
+ <li>UEFI bitness / Bootmode</li>
+ <li>DHCP</li>
+ <li>block device</li>
+ <li>partitioning for boot devices?</li>
+ <li>stacked block devices (LVM, system encription, RAID)</li>
+ <li>EFI system partition</li>
+ <li>Swap space</li>
+ <li>Mount and Mount Points</li>
+ <li>FAT32 and others</li>
+ <li>Mirror servers</li>
+ <li>Reflector</li>
+ <li>CPU Microcode Updates</li>
+ <li>firmware</li>
+ <li>Linux Kernel (I mean, I sort of know what it is)</li>
+ <li>Fstab file</li>
+ <li>Persistent Block Device Naming</li>
+ <li>Chroot</li>
+ <li>> Creating a new initramfs is usually not required, because mkinitcpio was run on installation of the kernel package with pacstrap. </li>
+ <li>Boot Loader</li>
+</ul>
 
 </details>
 
