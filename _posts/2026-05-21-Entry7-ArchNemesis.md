@@ -33,7 +33,7 @@ The pain doesn't really end there though, this was just a poke. The entire insta
 
 ### The Forbidden Term List
 
-<details open>
+<details>
 <summary> Open me! </summary>
 <ul>
 <li> x86\_64-compatible machine </li>
@@ -61,7 +61,7 @@ The pain doesn't really end there though, this was just a poke. The entire insta
  <li>Fstab file</li>
  <li>Persistent Block Device Naming</li>
  <li>Chroot</li>
- <li>> Creating a new initramfs is usually not required, because mkinitcpio was run on installation of the kernel package with pacstrap. </li>
+ <li> "Creating a new initramfs is usually not required, because mkinitcpio was run on installation of the kernel package with pacstrap." what? </li>
  <li>Boot Loader</li>
 </ul>
 
